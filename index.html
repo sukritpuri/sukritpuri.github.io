@@ -85,16 +85,6 @@
 
         <p></p>
         <p></p>
-      <div class="collapsible-container">
-        <button class="collapsible" onclick="toggleSection(1)">Open Section 1</button>
-        <div class="content" id="section1Content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-        <button class="collapsible" onclick="toggleSection(2)">Open Section 2</button>
-        <div class="content" id="section2Content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-      </div>
       </section>
      
 
@@ -119,16 +109,6 @@ for (i = 0; i < coll.length; i++) {
     } 
   });
 }
-
-    function toggleSection(sectionNumber) {
-    var contentId = "section" + sectionNumber + "Content";
-    var content = document.getElementById(contentId);
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  }
       
 </script>
   </body>
