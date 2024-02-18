@@ -16,7 +16,7 @@
       color: blue;
       cursor: pointer;
       padding: 18px;
-      width: 10%;
+      width: 20%;
       border: none;
       text-align: left;
       outline: none;
@@ -34,6 +34,23 @@
       transition: max-height 0.2s ease-out;
       background-color: #f1f1f1;
     }
+
+      /* Added styles to float the sections side by side */
+  .collapsible-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .collapsible-container .collapsible {
+    flex: 1;
+    margin: 5px;
+  }
+
+  .collapsible-container .content {
+    flex: 1;
+    margin: 5px;
+  }
+      
     </style>
     
   </head>
